@@ -3,8 +3,9 @@
   "compilerOptions": {
     "outDir": "build", //js 파일이 생성될 디렉터리를 지정
     "target": "ES6", //컴파일 하고 싶은 js 버전
-    "lib": ["ES6", "DOM"], //타겟 런타임 환경. DOM API에 대한 정보
+    "lib": ["ES6"], //타겟 런타임 환경. DOM API에 대한 정보
     "strict": true,
-    "allowJs": true
+    "esModuleInterop": true,
+    "module": "CommonJS"
   }
 }
